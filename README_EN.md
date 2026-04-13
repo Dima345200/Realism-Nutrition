@@ -6,16 +6,6 @@ Overhauls the vanilla hunger system by introducing a realistic nutrition model w
 
 ---
 
-## 🌿 Branches & Versions
-
-This mod has different branches for different Minecraft versions:
-
-- `main` → latest version of the mod
-
-📌 See the requirements in the README of the corresponding branch.
-
----
-
 ## ✨ Features
 
 - Macronutrients (proteins, fats, and carbohydrates) and vitamins
@@ -28,20 +18,20 @@ This mod has different branches for different Minecraft versions:
 
 ## 📦 Installation
 
-1. Install the required mod loader (Fabric, Forge, or NeoForge)
-2. Download the mod for your Minecraft version
-3. Install required dependencies (if any)
-4. Place the mod file into your `.minecraft/mods` folder
+1. Install the Fabric
+2. Download the fabric api
+3. Download the mod
+4. Place the mod file and fabric api into your `.minecraft/mods` folder
 5. Launch the game
 
 ---
 
 ## ⚙️ Requirements & Dependencies
 
-- Minecraft: **to be announced**
-- Mod Loader: **to be announced**
-- Fabric API: **to be announced**
-- Java: **to be announced**
+- Minecraft: **1.20.1**
+- Mod Loader: **Fabric 0.18.3**
+- Fabric API: **0.92.7**
+- Java: **17**
 
 ---
 
