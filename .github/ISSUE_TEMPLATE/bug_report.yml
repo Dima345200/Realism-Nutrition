@@ -1,0 +1,66 @@
+name: "🐛 Bug report"
+about: "Сообщить об ошибке в моде"
+title: "[BUG] Краткое описание проблемы"
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "🐛 Что произошло?"
+      description: "Опиши проблему"
+      placeholder: "Например: игра вылетает при открытии сундука"
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: "🎮 Версия Minecraft"
+      placeholder: "1.20.1 (Fabric / Forge)"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: "📦 Версия мода"
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "⚙️ Как воспроизвести"
+      value: |
+        1. Запустить игру
+        2. Сделать действие
+        3. Ошибка появляется
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "❗ Ожидаемое поведение"
+      placeholder: "Что должно было произойти"
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "💥 Фактическое поведение"
+      placeholder: "Что произошло на самом деле"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📄 Логи / crash report"
+      description: "Вставь сюда лог или crash-report"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "📌 Дополнительно"
+      description: "Моды, конфликты, заметки"
