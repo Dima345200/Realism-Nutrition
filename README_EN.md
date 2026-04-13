@@ -2,6 +2,8 @@
 
 Overhauls the vanilla hunger system by introducing a realistic nutrition model with calories, macronutrients, and metabolism.
 
+> ⚠️ This mod is still in development. Some features may change.
+
 ---
 
 ## 🌿 Branches & Versions
@@ -47,8 +49,6 @@ This mod has different branches for different Minecraft versions:
 
 This project is distributed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
-
-> ⚠️ This mod is still in development. Some features may change.
 
 ---
 
