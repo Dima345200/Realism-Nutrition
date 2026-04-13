@@ -29,11 +29,3 @@ body:
       placeholder: "v1.0.0"
     validations:
       required: true
-
-  - type: textarea
-    id: logs
-    attributes:
-      label: "📄 Логи (latest.log)"
-      description: "Отправьте содержимое файла latest.log или crash-report"
-    validations:
-      required: false
