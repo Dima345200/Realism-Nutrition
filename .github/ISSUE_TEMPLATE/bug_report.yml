@@ -29,8 +29,3 @@ body:
       placeholder: "v1.0.0"
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        📎 **Прикрепите файл latest.log через кнопку "Attach files" ниже**
