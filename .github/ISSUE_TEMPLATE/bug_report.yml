@@ -20,7 +20,7 @@ body:
       label: "🎮 Версия Minecraft"
       placeholder: "1.20.1 (Fabric / Forge / Neoforge)"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: mod-version
