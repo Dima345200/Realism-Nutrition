@@ -30,10 +30,10 @@ body:
     validations:
       required: true
 
-  - type: file
+  - type: textarea
     id: logs
     attributes:
       label: "📄 Логи (latest.log)"
-      description: "Загрузите файл latest.log или crash-report"
+      description: "Отправьте содержимое файла latest.log или crash-report"
     validations:
       required: false
