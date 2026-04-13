@@ -49,3 +49,9 @@
 Подробнее см. файл [LICENSE](LICENSE).
 
 > ⚠️ Мод находится в разработке. Некоторые функции могут измениться.
+
+---
+
+## 🌍 English version
+
+See README_EN.md for the English version of this mod.
