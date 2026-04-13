@@ -31,9 +31,9 @@ body:
       required: true
 
   - type: file
-  id: logs
-  attributes:
-    label: "📄 Логи (latest.log)"
-    description: "Загрузите файл latest.log или crash-report"
-  validations:
-    required: false
+    id: logs
+    attributes:
+      label: "📄 Логи (latest.log)"
+      description: "Загрузите файл latest.log или crash-report"
+    validations:
+      required: false
