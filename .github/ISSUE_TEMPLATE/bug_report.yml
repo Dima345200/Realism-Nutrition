@@ -1,7 +1,7 @@
 name: "🐛 Bug report"
 description: "Сообщить об ошибке в моде"
 title: "[BUG] <опишите проблему>"
-labels: ["баг"]
+labels: ["bug"]
 assignees: ["Dima345200"]
 
 body:
