@@ -1,7 +1,7 @@
 name: "🐛 Bug report"
 description: "Сообщить об ошибке в моде"
 title: "[BUG] <опишите проблему>"
-labels: ["баг"]
+labels: ["bug"]
 assignees: ["Dima345200"]
 
 body:
@@ -11,6 +11,18 @@ body:
       label: "🐛 Что произошло?"
       description: "Опишите проблему"
       placeholder: "Например: игра вылетает при открытии сундука"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🔁 Как воспроизвести?"
+      description: "Шаги для повторения"
+      placeholder: |
+        1. Запустить игру
+        2. Сделать действие...
+        3. Происходит ошибка
     validations:
       required: true
 
@@ -29,3 +41,10 @@ body:
       placeholder: "v1.0.0"
     validations:
       required: true
+      
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📜 Логи / crash-report"
+      description: "Вставьте логи (если есть)"
+      render: shell
