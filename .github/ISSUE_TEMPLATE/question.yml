@@ -1,0 +1,35 @@
+name: "❓ Вопрос"
+description: "Задать вопрос по моду"
+title: "[QUESTION] <ваш вопрос>"
+labels: ["question"]
+assignees: ["Dima345200"]
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "❓ Ваш вопрос"
+      description: "Что именно вы хотите узнать?"
+      placeholder: "Как работает...?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: "🧪 Что вы уже пробовали?"
+      description: "Опишите, что вы уже пытались сделать"
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: "🎮 Версия Minecraft"
+      placeholder: "1.20.1 (Fabric / Forge / Neoforge)"
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: "📦 Версия мода"
+      placeholder: "v1.0.0"
+    validations:
+      required: true
