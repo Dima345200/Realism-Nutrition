@@ -1,0 +1,36 @@
+name: "✨ Feature request"
+description: "Предложить новую функцию или улучшение"
+title: "[FEATURE] <кратко опишите идею>"
+labels: ["feature request", "enhancement"]
+assignees: ["Dima345200"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "🤔 Проблема"
+      description: "Какую проблему это решает?"
+      placeholder: "Например: неудобно, что нельзя..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "💡 Предлагаемое решение"
+      description: "Опишите, что вы хотите добавить"
+      placeholder: "Я хотел бы, чтобы..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "🔄 Альтернативы"
+      description: "Есть ли другие варианты решения?"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "📎 Дополнительно"
+      description: "Скриншоты, примеры, идеи"
