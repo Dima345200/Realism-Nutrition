@@ -29,3 +29,9 @@ body:
       placeholder: "v1.0.0"
     validations:
       required: true
+  - type: textarea
+      id: logs
+      attributes:
+        label: "📜 Логи / crash-report"
+        description: "Вставьте логи (если есть)"
+        render: shell
