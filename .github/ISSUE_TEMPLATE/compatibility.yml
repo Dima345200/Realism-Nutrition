@@ -1,0 +1,67 @@
+name: "⚔️ Конфликт модов"
+description: "Сообщить о конфликте с другим модом"
+title: "[COMPAT] <название мода / проблема>"
+labels: ["compatibility"]
+assignees: ["Dima345200"]
+
+body:
+  - type: input
+    id: other-mod
+    attributes:
+      label: "🧩 Другой мод"
+      description: "С каким модом возникает конфликт?"
+      placeholder: "Например: JEI / Sodium"
+    validations:
+      required: true
+
+  - type: textarea
+    id: conflict
+    attributes:
+      label: "💥 В чём конфликт?"
+      description: "Опишите, что именно ломается"
+      placeholder: "Например: игра вылетает при открытии инвентаря"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🔁 Как воспроизвести?"
+      description: "Шаги для повторения"
+      placeholder: |
+        1. Запустить игру
+        2. Сделать действие...
+        3. Происходит конфликт
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: "🎮 Версия Minecraft"
+      placeholder: "1.20.1 (Fabric / Forge / NeoForge)"
+    validations:
+      required: false
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: "📦 Версия вашего мода"
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: mod-list
+    attributes:
+      label: "📜 Список модов"
+      description: "Желательно полный список модов"
+      placeholder: "Вставьте список модов или файл"
+      render: shell
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📜 Логи / crash-report"
+      description: "Очень желательно приложить"
+      render: shell
