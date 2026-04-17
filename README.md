@@ -22,7 +22,7 @@ See [README_EN.md](README_EN.md) for the English version of this mod.
 
 1. Установите Fabric
 2. Скачайте fabric api
-3. Скачайте мод ([Modrinth](modrinth.com))
+3. Скачайте мод ([Modrinth](https://modrinth.com))
 4. Переместите файл мода и fabric api в папку `.minecraft/mods`
 5. Запустите игру
 
