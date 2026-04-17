@@ -31,8 +31,8 @@ See [README_EN.md](README_EN.md) for the English version of this mod.
 ## ⚙️ Требования и зависимости
 
 - Minecraft: **1.20.1**
-- Mod Loader: **Fabric 0.18.3**
-- Fabric API: **0.92.7**
+- Mod Loader: **Fabric 0.14.21**
+- Fabric API: **0.83.0**
 - Java: **17**
 
 ---
