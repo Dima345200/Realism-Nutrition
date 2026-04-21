@@ -1,4 +1,4 @@
-package com.dima345200.realism_nutrition.mixin.client;
+package com.dima345200.realism_nutrition.client.mixinClient;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
